@@ -23,7 +23,7 @@ def load_dict_from_json(file_path):
         data = json.load(file)
     return data
 
-secrets_file = "C:\\Users\\Anubhab Roy\\Downloads\\Nekko_WorkFiles\\lissomsoft\\secrets.json"
+secrets_file = "../secrets.json"
 SECRETS = load_dict_from_json(secrets_file)
 
 aws_access_key_id = SECRETS["aws_access_key_id"]
